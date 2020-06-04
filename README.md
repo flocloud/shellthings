@@ -1,6 +1,6 @@
 # shellthings
 
-## brew_repo_mirror.sh
+## brew_repo_mirror.sh (MacOS)
 
 Set Homebrew repositories with ustc's mirrors, so that *brew* can obtain software packages on a stable network connection. It may be useful for Chinese people.
 
@@ -18,9 +18,9 @@ If you want to set Homebrew repositories back to original settings, use:
 
 > Note that it only supports bash and zsh well.
 
-## sync_icloud.sh
+## sync_icloud.sh (MacOS)
 
-Synchronize files between iCloud and local file systems.
+Synchronize files between iCloud and local file system.
 
 Usage:
 
@@ -34,4 +34,22 @@ Usage:
 
     ```sh
     ./sync_icloud.sh --get <file> [<file2> <file3> ...]
+    ```
+
+## socks_proxy.sh (MacOS)
+
+Turn on/off MacOS socks proxy.
+
+Usage:
+
+* Turn on socks proxy with specified proxy arguments:
+
+    ```sh
+    ./socks_proxy.sh --on <network> [<host> <port>]
+    ```
+
+* Turn off socks proxy:
+
+    ```sh
+    ./socks_proxy.sh --off <network>
     ```
