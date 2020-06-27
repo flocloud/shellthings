@@ -53,3 +53,13 @@ Usage:
     ```sh
     ./socks_proxy.sh --off <network>
     ```
+
+## launchpad.sh (MacOS)
+
+Change the layout of Launchpad with the number of rows and columns.
+
+Usage:
+
+```sh
+./launchpad.sh --layout <rows> <columns>
+```
